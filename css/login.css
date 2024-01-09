@@ -17,10 +17,56 @@ div.loginHeader p{
     font-size:50px;
     color: #fff;
     margin: 0px;
+    text-transform: uppercase;
 }
 
 span{
     border-bottom: 5px solid #fa8e8e; 
 }
 
+.loginBody form{
+    margin: 4rem auto;
+    width:500px;
+    background-color: rgba(0,0,0,.5);
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+.loginInput{
+    margin-top:3rem;
+}
+
+.loginInput label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.loginInput input{
+    height: 30px;
+    width:100%;
+    border: 2px solid #f88d8d;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+div.loginButtonContainer{
+    margin: 40px;
+    text-align: center;
+}
+
+button{
+    margin-top:30px;
+    margin-left:40%;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: #f19393;
+    border: none;
+    color: #fff;
+}
 
