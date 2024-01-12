@@ -88,7 +88,7 @@ div.loginHeader p{
     text-transform: uppercase;
 }
 
-span{
+.home-title{
     border-bottom: 5px solid #fa8e8e; 
 }
 
@@ -146,14 +146,15 @@ button{
 .banner{
     background: url(../images/banner.jpg) no-repeat center center fixed;
     background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 1px;
+    padding-bottom: 50px;
 }
 
 .homepageContainer{
     width:100%;
     max-width: 900px;
     margin: 0 auto;
+    /* height: 50vh; */
 }
 
 .bannerHeader h1{
@@ -174,3 +175,62 @@ p.bannerTagLine{
     font-size: 30px;
     margin-top: 50px;
 }
+
+.bannerIcons{
+    margin-top: 100px;
+}
+
+.bannerIcons a{
+    font-size: 23px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    color: #868485;
+}
+
+.bannerIcons a:first-child{
+    margin-left: 0px;
+}
+
+.bannerIcons a:hover{
+    color: #fff;
+    font-size: 25px;
+    background: #f685a1;
+    transition: .5s all;
+}
+
+.homepageFeatures{
+    display:flex;
+    flex-direction: row;
+    padding: 20px 0px;
+}
+
+.homepageFeature{
+    padding:10px 20px;
+    text-align: center;
+}
+
+.featureIcon{
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+    display: inline-block;
+    background-color: #f685a1;
+    color: white;
+    padding-top: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.featureTitle{
+    margin-bottom: 20px;
+}
+
+.featureDescription{
+    color: #848484; 
+}
+
