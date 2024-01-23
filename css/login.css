@@ -70,9 +70,32 @@ body#loginbody{
     font-family: arial;
 }
 
+.header{
+    width: 100%;
+    background: #f685a1;
+    padding: 20px 0px;
+    padding-bottom: 40px;
+    text-align: right;
+}
 
 div.loginHeader{
     text-align: center;
+}
+
+.header a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+}
+
+.header a:hover{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding:5px;
+    border-radius:5px;
 }
 
 div.loginHeader h1{
@@ -148,11 +171,12 @@ button{
     background-size: cover;
     padding-top: 1px;
     padding-bottom: 50px;
+    height: 80vh;
 }
 
 .homepageContainer{
     width:100%;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     /* height: 50vh; */
 }
@@ -212,6 +236,13 @@ p.bannerTagLine{
 .homepageFeature{
     padding:10px 20px;
     text-align: center;
+    width:33.33%
+}
+
+.homepageFeature:hover{
+    border-top:2px solid #f88d8d;
+    border-bottom:2px solid #f88d8d;
+    transition: 0.5 all;
 }
 
 .featureIcon{
@@ -228,10 +259,12 @@ p.bannerTagLine{
 
 .featureTitle{
     margin-bottom: 20px;
+    font-size: 25px;
 }
 
 .featureDescription{
     color: #848484; 
+    font-size: 18px;
 }
 
 .homepageNotified{
@@ -273,6 +306,9 @@ p.bannerTagLine{
     outline: none;
 }
 
+.emailForm h3{
+    font-size: 25px;
+}
 
 .homepageNotifiedContainer > div{
     width: 50%;
@@ -293,9 +329,69 @@ p.bannerTagLine{
 }
 
 .video{
-    width:100%;
+    width:60%;
+    margin:0 auto;
 }
 
 iframe{
-    width: 50%;
+    width: 80%;
+    height: 100%;
+}
+
+.emailForm{
+    width: 40%;
+}
+
+.socials{
+    text-align: center;
+    padding: 60px  0 20px 0;
+}
+
+h3.socialHeader{
+    font-size: 25px;
+
+}
+
+p.socialText{
+    margin-top:20px;
+    margin-bottom: 15px;
+    color: #848484;
+    font-size: 20px;
+}
+
+.socialsIcons a{
+    font-size: 23px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 7px;
+    background: #d4d4d4;
+    border-radius:50%;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.socialsIcons a:hover{
+    background: #f8a4b9;
+    transition: 0.3s all;
+}
+
+.footer{
+    background: #e3e3e3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.footer a{
+    color: #848484;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    font-weight: bold;
+    color: #f8a4b9;
+    transition: 0.5 all;
 }
