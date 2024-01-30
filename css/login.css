@@ -395,3 +395,72 @@ p.socialText{
     color: #f8a4b9;
     transition: 0.5 all;
 }
+
+
+/* Dashboard styles */
+#dashboard-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    width:20%;
+    background: #323232;
+    height: 100vh;
+}
+
+.content-container{
+    width: 70%;
+}
+
+h1.dashboard-logo{
+    color: #f685a1;
+    font-size: 80px;
+    text-align: center;
+}
+
+.sidebar-user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.sidebar-user img{
+    width: 60px;
+    display:inline-block;
+    border-radius: 50%;
+    border: 2px solid #f685a1;
+    margin-right: 5px;
+}
+
+.sidebar-user span{
+    top:20%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+ul.menu-list{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+ul.menu-list li{
+    padding: 15px 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ul.menu-list li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+}
+
+ul.menu-list li:hover{
+    background: #f685a1;
+    color: #fff;
+}
