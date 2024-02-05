@@ -410,7 +410,8 @@ p.socialText{
 }
 
 .content-container{
-    width: 70%;
+    width: 80%;
+    background-color: #f4e5e5;
 }
 
 h1.dashboard-logo{
@@ -432,6 +433,7 @@ h1.dashboard-logo{
     border-radius: 50%;
     border: 2px solid #f685a1;
     margin-right: 5px;
+    vertical-align: middle;
 }
 
 .sidebar-user span{
@@ -460,7 +462,44 @@ ul.menu-list li a{
     display: block;
 }
 
+ul.menu-list li a i{
+    font-size: 25px;
+}
+
+ul.menu-list li.menuActive{
+    background-color: #f685a1;
+    color:#fff;
+}
+
 ul.menu-list li:hover{
     background: #f685a1;
     color: #fff;
+    transition: 8.5s all;
+}
+
+.top-nav{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.top-nav a{
+    color: #848383;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#logoutBtn{
+    float:right;
+}
+
+
+.content{
+    padding: 50px 10px 10px 10px;
+}
+
+.main-content{
+    background: #fff;
+    height: 100%;
+    max-height: 800px;
+
 }
