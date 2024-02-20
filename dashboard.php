@@ -54,7 +54,7 @@
                 dashboardLogo.style.fontSize = '60px';
                 userImage.style.width = '60px';
     
-                menuIcons = document.getElementsByClassName('menuIcons');
+                menuIcons = document.getElementsByClassName('menuText');
                 for (var i=0; i < menuIcons.length; i++){
                     menuIcons[i].style.display = 'none';
                 }
